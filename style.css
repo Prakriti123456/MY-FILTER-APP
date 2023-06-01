@@ -1,0 +1,23 @@
+h3{
+font-size: 25px !important;
+}
+
+.btn-danger:hover{
+background-color: blueviolet;
+}
+
+.btn-info:hover{
+    background-color: darkorchid;
+    }
+
+canvas{
+margin-top:150px ;
+animation-name: example;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+
+@keyframes example{
+from{box-shadow: 1px 1px 38px darkred;}
+to{box-shadow: 1px 1px 38px maroon;}
+}
